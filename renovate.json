@@ -1,3 +1,5 @@
 {
- "dependencyDashboard": true
+ "dependencyDashboard": true,
+ "baseBranches": ["dev"],
+ "branchPrefix": "custom_prefix/"
 }
