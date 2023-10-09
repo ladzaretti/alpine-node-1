@@ -1,5 +1,15 @@
 {
  "dependencyDashboard": true,
  "baseBranches": ["dev"],
- "branchPrefix": "custom_prefix/"
+ "branchPrefix": "custom_prefix/",
+   "packageRules": [
+    {
+      "matchConfidence": ["high", "very high"],
+      "groupName": "high merge confidence"
+    },
+    {
+      "matchConfidence": ["neutral","low"],
+      "groupName": "high merge confidence"
+    }
+  ]
 }
