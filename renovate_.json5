@@ -28,6 +28,10 @@
     {
       "matchConfidence": ["high", "very high"],
       "groupName": "high merge confidence"
+    },
+    {
+      "matchConfidence": ["neutral","low"],
+      "groupName": "high merge confidence"
     }
   ]
 }
