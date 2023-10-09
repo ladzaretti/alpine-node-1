@@ -3,5 +3,11 @@
     "lodash": "4.0.0",
     "luxon": "3.0.0",
     "graceful-fs": "4.2.4"
-  }
+  },
+  "packageRules": [
+    {
+      "matchConfidence": ["high", "very high"],
+      "groupName": "high merge confidence"
+    }
+  ]
 }
